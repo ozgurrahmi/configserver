@@ -1,2 +1,3 @@
 FLASK_DEBUG: 1
 DATABASE_URL: '{cipher}249c882b8406b85e2208bfcefe17e146d4d3f724008565e255e93554bcf980beedbff6fadef67bdbd24abf7f91e4f2ee4488485895af4618c3076e73641c7f18'
+API_COMPATIBILITY_CONFIG='{"api_compatibility": {"android": "1.1.0","ios": "1.0.10"}}'
