@@ -5,3 +5,11 @@ DUMMY1: ${LOCAL_DUMMY1}
 DUMMY2: ${LOCAL_DUMMY2:test}
 DUMMY3: ${LOCAL_DUMMY3:1}
 DUMMY4: ${LOCAL_DUMMY4:false}
+DUMMY5:
+  api_compatibility:
+    android: 1.1.0
+    ios: 1.0.10
+DUMMY6:
+  api_compatibility:
+    android: 1.1.0
+    ios: ${LOCAL_DUMMY6_IOS:1.0.11}
